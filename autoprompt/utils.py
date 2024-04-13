@@ -126,7 +126,7 @@ class TriggerTemplatizer:
                  template,
                  config,
                  tokenizer,
-                 label_field='label',
+                 label_field='obj_label',
                  label_map=None,
                  tokenize_labels=False,
                  add_special_tokens=False,
