@@ -521,3 +521,4 @@ if __name__ == '__main__':
     logging.basicConfig(level=level)
 
     run_model(args)
+    torch.save(predictor.state_dict(), 'autoprompt_model.pth')
